@@ -24,7 +24,7 @@ class hugeinteger
 	}
 	 void addition(hugeinteger obj)
 	{
-		//tempsum=0;
+		
 		for (int i=strl-1;i>=0;i--)
 		{
 			tempsum=nos[i]+obj.nos[i];
@@ -62,4 +62,6 @@ int main()
 	obj2.covertintono();
 	obj2.addition(obj1);
 	obj2.display();
+	system("pause");
+	return 0;
 }
